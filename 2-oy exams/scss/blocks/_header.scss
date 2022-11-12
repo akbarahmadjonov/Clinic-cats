@@ -1,0 +1,254 @@
+//**************
+//***Header top section***//
+//*************
+.header-top {
+  padding: 14px 0 10px 0;
+  background-color: #f9f8f8;
+}
+
+.header-top__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 190px;
+}
+
+.header-top__address {
+  display: flex;
+}
+
+.header-top__address address::before {
+  content: "";
+  margin-right: 10px;
+  width: 14px;
+  height: 13px;
+  background-image: url(".././images/header-top-home-icon.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.header-top__address address {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  text-align: center;
+}
+
+// header-top__tel
+.header-top__tel {
+  display: flex;
+}
+
+.header-top-tel__boxes:first-child::before {
+  content: "";
+  margin-right: 10px;
+  width: 14px;
+  height: 13px;
+  background-image: url(".././images/header-top-phone-icon.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.header-top-tel__boxes {
+  display: flex;
+  align-items: center;
+}
+
+.header-top-tel__boxes:not(:last-child) {
+  margin-right: 10px;
+}
+
+.header-top-tel__boxes:not(:first-child)::before {
+  content: "";
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 4.5px;
+  height: 4.5px;
+  background: #ffbd54;
+}
+
+.header-top-tel__boxes a {
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+
+  //   When it is hovered
+  &:hover {
+    color: #ffbd54;
+  }
+  //   When it is active
+  &:active {
+    color: #333333;
+    opacity: 0.6;
+  }
+}
+// Header-top__tel
+
+// Header-top__days
+.header-top__days {
+  display: flex;
+}
+
+.header-top-weeks__boxes:first-child::before {
+  content: "";
+  margin-right: 10px;
+  width: 14px;
+  height: 13px;
+  background-image: url(".././images/header-top-week-icon.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.header-top-weeks__boxes {
+  display: flex;
+  align-items: center;
+}
+
+.header-top-weeks__boxes span {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.header-top-weeks__boxes time {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.header-top__days .header-top-weeks__boxes--secondary {
+  margin-left: 17px;
+}
+
+// Header-top__days
+//**************
+//*** Header top section***//
+//*************
+
+//**************
+//***Header***//
+//*************
+.navbar {
+  margin-left: auto;
+}
+
+.site-header {
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+}
+
+.site-header__inner img:hover {
+  opacity: 0.8;
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.navbar__list .navbar__item:first-child::before {
+  content: "";
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  background-image: url(".././images/header-active-fish-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.navbar__item {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  & .navbar__item {
+    list-style: none;
+  }
+
+  & .navbar__link {
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 21px;
+    color: #333333;
+  }
+}
+
+.navbar__link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 5px;
+  background-color: #f4ffad;
+  transition: width 0.2s;
+}
+
+.navbar__link:hover::after {
+  width: 100%;
+}
+
+.navbar__link:active {
+  opacity: 0.6;
+}
+
+.navbar .navbar__item:not(:last-child) {
+  padding-right: 50px;
+  color: red;
+}
+
+.navbar-ask__btn {
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar-ask__btn::before {
+  content: "";
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  background-image: url(".././images/header-pet-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.navbar-ask__btn a {
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 21px;
+  color: #333333;
+}
+
+.navbar-ask__btn:active {
+  opacity: 0.6;
+}
+
+//**************
+//***Header***//
+//*************

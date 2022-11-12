@@ -1,0 +1,260 @@
+//**************
+//***Service***//
+//*************
+.service__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+  color: #333333;
+}
+
+.service__wrapper {
+  position: relative;
+}
+
+.service__wrapper button {
+  position: absolute;
+  top: 97px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:hover {
+    background: #fff;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.arrow-left {
+  left: -35px;
+}
+
+.arrow-right {
+  right: -35px;
+}
+
+.service__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+
+  & .service__item {
+    width: 100%;
+    max-width: 193px;
+    margin-top: 22px;
+    padding: 35px 32px;
+    font-size: 18px;
+    background: #ffffff;
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    font-weight: 500;
+    line-height: 22px;
+    list-style: none;
+    text-align: center;
+    color: #333333;
+
+    &:hover {
+      opacity: 0.8;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    &:active {
+      opacity: 0.7;
+    }
+  }
+}
+
+.service__list .service__item--job1::before {
+  content: "";
+  margin: 0 auto 17px;
+  width: 54px;
+  height: 70px;
+  background-image: url(".././images/service-doctor.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+}
+
+.service__list .service__item--job2::before {
+  content: "";
+  margin: 0 auto 17px;
+  width: 54px;
+  height: 70px;
+  background-image: url(".././images/service-girl-doctor.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+}
+
+.service__list .service__item--job3::before {
+  content: "";
+  margin: 0 auto 17px;
+  width: 54px;
+  height: 70px;
+  background-image: url(".././images/service-urologist.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+}
+
+.service__list .service__item--job4::before {
+  content: "";
+  margin: 0 auto 17px;
+  width: 54px;
+  height: 70px;
+  background-image: url(".././images/service-dermatologist.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+}
+
+.service__list .service__item--job5::before {
+  content: "";
+  margin: 0 auto 17px;
+  width: 54px;
+  height: 70px;
+  background-image: url(".././images/service-laborotory.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+}
+
+.service__list .service__item--job6::before {
+  content: "";
+  margin: 0 auto 17px;
+  width: 54px;
+  height: 70px;
+  background-image: url(".././images/service-ophtology.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+}
+
+//**************
+//***Service***//
+//*************
+
+// Secondary service
+.secondary-service {
+  margin-top: 14px;
+  background: #ffffff;
+  border-radius: 0px 5px 5px 5px;
+}
+
+.secondary-service__inner {
+  display: flex;
+  align-items: center;
+}
+
+.secondary__content {
+  padding-top: 40px;
+  margin-left: 67px;
+}
+
+.secondary__pic {
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.secondary__pic img {
+  border-radius: 5px;
+}
+
+.secondary__content h3 {
+  margin: 0;
+  padding-bottom: 15px;
+  font-weight: 550;
+  font-size: 32px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.secondary__text {
+  width: 492px;
+}
+
+.secondary__text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.secondary__btns {
+  margin-top: 20px;
+}
+
+.secondary__btns--first::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(".././images/service-secondary-money.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+}
+
+.secondary__btns--first {
+  padding: 15px 35px;
+  width: 185px;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  line-height: 21px;
+  background: #ffbd54;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: 500;
+  color: #ffffff;
+
+  &:hover {
+    background: #333333;
+    color: #ffbd54;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.secondary__btns--second::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(".././images/service-secondary-document.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+}
+
+.secondary__btns--second {
+  padding: 15px 37px;
+  width: 241px;
+  margin-left: 21px;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 21px;
+  background: #333333;
+  border-radius: 3px;
+  color: #ffffff;
+
+  &:hover {
+    background: #ffbd54;
+    color: #333333;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+// Secondary service

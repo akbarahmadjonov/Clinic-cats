@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Futura PT";
+  src: url("./fonts/FuturaPT-Bold.woff2"), url("./fonts/FuturaPT-Bold.woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura PT";
+  src: url("./fonts/FuturaPT-Bold.woff2"), url("./fonts/FuturaPT-Bold.woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura PT Book";
+  src: url("./fonts/FuturaPT-Book.woff2"), url("./fonts/FuturaPT-Book.woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura PT Book";
+  src: url("./fonts/FuturaPT-Book.woff2"), url("./fonts/FuturaPT-Book.woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura PT";
+  src: url("./fonts/FuturaPT-Light.woff2"), url("./fonts/FuturaPT-Light.woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura PT";
+  src: url("./fonts/FuturaPT-Medium.woff2"), url("./fonts/FuturaPT-Medium.woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura PT";
+  src: url("./fonts/FuturaPT-Light.woff2"), url("./fonts/FuturaPT-Light.woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura PT";
+  src: url("./fonts/FuturaPT-Medium.woff2"), url("./fonts/FuturaPT-Medium.woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1163px;
+  margin: 0 auto;
+  padding: 0 20px;
+} /*# sourceMappingURL=main.css.map */

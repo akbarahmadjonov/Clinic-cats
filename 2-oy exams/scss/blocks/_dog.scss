@@ -1,0 +1,70 @@
+.dog {
+  margin: 170px 0 100px 0;
+  background-image: url(".././images/dog-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50%);
+  background-size: 100%;
+}
+
+.dog__inner {
+  padding: 190px 287px;
+  background-image: url(".././images/dog-looks.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 400px) calc(20% - 8px);
+}
+
+.dog__content h2 {
+  margin: 0;
+  padding-bottom: 35px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.dog__content form input {
+  padding: 18px 22px;
+  width: 335px;
+  outline: none;
+  background: #ffffff;
+  border-radius: 3px;
+  font-weight: 400;
+  border: 2px solid transparent;
+  font-size: 14px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.dog__content form input:focus {
+  border: 2px solid #ffbd54;
+}
+
+.dog__content form input:focus::placeholder {
+  color: #333333;
+}
+
+.dog__content form button {
+  padding: 19px 22px;
+  margin-left: 20px;
+  width: 188px;
+  font-size: 14px;
+  line-height: 21px;
+  background: #333333;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 3px;
+
+  &:hover {
+    background: #ffbd54;
+    color: #333;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}
