@@ -1,0 +1,149 @@
+//**************
+//***FOOTER***//
+//*************
+.footer {
+  margin-top: 250px;
+  background: #f3f3f3;
+  border: 1px solid #ebebeb;
+}
+
+.footer__inner {
+  padding: 61px 0 61px 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__item {
+  list-style: none;
+}
+
+.footer__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.footer__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #333333;
+
+  &:hover {
+    color: #ffbd54;
+  }
+  &:active {
+    color: rgba(51, 51, 51, 0.7);
+  }
+}
+
+.footer__times {
+  position: relative;
+}
+
+.footer__date {
+  display: flex;
+}
+
+.footer__date:first-child::before {
+  content: "";
+  margin-right: 10px;
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  background-image: url(".././images/header-top-week-icon.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.footer__date span {
+  margin-right: 9px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.footer__address {
+  position: relative;
+}
+
+.footer__location {
+  display: flex;
+  width: 157px;
+}
+
+.footer__location::before {
+  content: "";
+  margin-right: 10px;
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  background-image: url(".././images/header-top-home-icon.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.footer__location address {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.footer__tels {
+  display: block;
+  position: relative;
+}
+
+.footer-tel__boxes:first-child::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../images/header-top-phone-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.footer-tel__boxes a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  text-decoration: none;
+
+  &:hover {
+    color: #ffbd54;
+  }
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.footer small {
+  display: block;
+  margin-top: 28px;
+  text-align: right;
+}
+//**************
+//***FOOTER***//
+//*************
