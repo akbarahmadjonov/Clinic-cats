@@ -112,7 +112,7 @@
   position: relative;
 }
 
-.footer-tel__boxes:first-child::before {
+.footer__boxes:first-child::before {
   content: "";
   display: inline-block;
   position: absolute;
@@ -124,7 +124,7 @@
   background-repeat: no-repeat;
 }
 
-.footer-tel__boxes a {
+.footer__boxes a {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;

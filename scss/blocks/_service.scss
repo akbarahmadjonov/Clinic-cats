@@ -152,22 +152,22 @@
   align-items: center;
 }
 
-.secondary__content {
+.secondary-service__content  {
   padding-top: 40px;
   margin-left: 67px;
 }
 
-.secondary__pic {
+.secondary-service__pic {
   padding-left: 30px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-.secondary__pic img {
+.secondary-service__pic img {
   border-radius: 5px;
 }
 
-.secondary__content h3 {
+.secondary-service__content h3 {
   margin: 0;
   padding-bottom: 15px;
   font-weight: 550;
@@ -178,27 +178,27 @@
   color: #333333;
 }
 
-.secondary__text {
+.secondary-service__text {
   width: 492px;
 }
 
-.secondary__text p {
+.secondary-service__text p {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: #949494;
 }
 
-.secondary__btns {
+.secondary-service__btns {
   display: flex;
   margin-top: 20px;
 }
 
-.secondary__btnup {
+.secondary-service__btnup {
   position: relative;
 }
 
-.secondary__btns--first::before {
+.secondary-service__btns--first::before {
   content: "";
   width: 20px;
   height: 20px;
@@ -210,7 +210,7 @@
   display: inline-block;
 }
 
-.secondary__btns--first {
+.secondary-service__btns--first {
   padding: 15px 37px 15px 60px;
   width: 185px;
   font-size: 16px;
@@ -233,7 +233,7 @@
   }
 }
 
-.secondary__btns--second::before {
+.secondary-service__btns-second::before {
   content: "";
   width: 20px;
   height: 20px;
@@ -245,7 +245,7 @@
   display: inline-block;
 }
 
-.secondary__btns--second {
+.secondary-service__btns-second {
   padding: 15px 37px 15px 70px;
   width: 250px;
   margin-left: 21px;

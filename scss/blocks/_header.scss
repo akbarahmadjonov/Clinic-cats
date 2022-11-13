@@ -42,7 +42,7 @@
   display: flex;
 }
 
-.header-top-tel__boxes:first-child::before {
+.header-top__boxes:first-child::before {
   content: "";
   margin-right: 10px;
   width: 14px;
@@ -52,16 +52,16 @@
   display: inline-block;
 }
 
-.header-top-tel__boxes {
+.header-top__boxes {
   display: flex;
   align-items: center;
 }
 
-.header-top-tel__boxes:not(:last-child) {
+.header-top__boxes:not(:last-child) {
   margin-right: 10px;
 }
 
-.header-top-tel__boxes:not(:first-child)::before {
+.header-top__boxes:not(:first-child)::before {
   content: "";
   margin-right: 10px;
   border-radius: 50%;
@@ -70,7 +70,7 @@
   background: #ffbd54;
 }
 
-.header-top-tel__boxes a {
+.header-top__boxes a {
   font-weight: 500;
   text-decoration: none;
   font-size: 14px;
@@ -94,7 +94,7 @@
   display: flex;
 }
 
-.header-top-weeks__boxes:first-child::before {
+.header-top__boxes-week:first-child::before {
   content: "";
   margin-right: 10px;
   width: 14px;
@@ -104,26 +104,26 @@
   display: inline-block;
 }
 
-.header-top-weeks__boxes {
+.header-top__boxes-week {
   display: flex;
   align-items: center;
 }
 
-.header-top-weeks__boxes span {
+.header-top__boxes-week span {
   font-weight: 600;
   margin-right: 5px;
 }
 
-.header-top-weeks__boxes time {
+.header-top__boxes-week time {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  display: flex;
   align-items: center;
   color: #333333;
 }
 
-.header-top__days .header-top-weeks__boxes--secondary {
+.header-top__days .header-top__boxes-secondary {
   margin-left: 17px;
 }
 
@@ -220,7 +220,7 @@
   color: red;
 }
 
-.navbar-ask__btn {
+.site-header__btn {
   display: flex;
   margin-left: auto;
 }
