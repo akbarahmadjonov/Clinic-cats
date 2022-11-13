@@ -312,7 +312,7 @@ img {
   margin-left: auto;
 }
 
-.navbar-ask__btn::before {
+.site-header__btn::before {
   content: "";
   margin-right: 10px;
   width: 24px;
@@ -323,7 +323,7 @@ img {
   display: inline-block;
 }
 
-.navbar-ask__btn a {
+.site-header__btn a {
   font-size: 16px;
   list-style: none;
   text-decoration: none;
