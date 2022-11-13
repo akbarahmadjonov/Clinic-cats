@@ -132,6 +132,10 @@
 }
 
 .contact__content {
+  background-image: url(".././images/contact-us-bg.webp");
+}
+
+.contact__content {
   padding: 62px 0 74px 165px;
   width: 100%;
   max-width: 987px;
@@ -222,3 +226,18 @@
 //**************
 //***Contact***//
 //*************
+
+// Retina hero bg
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .contact__content {
+    background-image: url(".././images/contact-us-bg@2x.png");
+  }
+  .contact__content {
+    background-image: url(".././images/contact-us-bg@2x.webp");
+  }
+}

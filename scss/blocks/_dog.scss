@@ -8,9 +8,13 @@
 
 .dog__inner {
   padding: 190px 287px;
-  background-image: url(".././images/dog-looks.png");
+  background-image: url(".././images/dog-looks-optimized.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 400px) calc(20% - 8px);
+}
+
+.dog__inner {
+  background-image: url(".././images/dog-looks-optimized.webp");
 }
 
 .dog__content h2 {
@@ -66,5 +70,18 @@
 
   &:active {
     opacity: 0.8;
+  }
+}
+
+// Retina hero bg
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .dog__inner {
+    background-image: url(".././images/dog-looks-optimized@2x.png");
+    background-image: url(".././images/dog-looks-optimized@2x.webp");
   }
 }

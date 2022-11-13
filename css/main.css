@@ -732,9 +732,13 @@ img {
 
 .dog__inner {
   padding: 190px 287px;
-  background-image: url(".././images/dog-looks.png");
+  background-image: url(".././images/dog-looks-optimized.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 400px) calc(20% - 8px);
+}
+
+.dog__inner {
+  background-image: url(".././images/dog-looks-optimized.webp");
 }
 
 .dog__content h2 {
@@ -799,6 +803,12 @@ img {
   opacity: 0.8;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .dog__inner {
+    background-image: url(".././images/dog-looks-optimized@2x.png");
+    background-image: url(".././images/dog-looks-optimized@2x.webp");
+  }
+}
 .article__inner {
   padding-top: 80px;
   padding-bottom: 250px;
@@ -924,6 +934,10 @@ img {
 }
 
 .contact__content {
+  background-image: url(".././images/contact-us-bg.webp");
+}
+
+.contact__content {
   padding: 62px 0 74px 165px;
   width: 100%;
   max-width: 987px;
@@ -1008,6 +1022,14 @@ img {
   opacity: 0.6;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .contact__content {
+    background-image: url(".././images/contact-us-bg@2x.png");
+  }
+  .contact__content {
+    background-image: url(".././images/contact-us-bg@2x.webp");
+  }
+}
 .footer {
   margin-top: 250px;
   background: #f3f3f3;

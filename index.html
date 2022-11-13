@@ -208,7 +208,12 @@
             <div class="article__inner">
                 <ol class="article__list">
                     <li class="article__item">
-                        <img src="./images/article-cat.jpg" width="305" height="180" alt="Article img-1">
+                        <picture>
+                            <source type="image/webp" srcset="images/article-cat.webp 1x, images/article-cat@2x.webp">
+                            <img src="./images/article-cat.jpg"
+                                srcset="./images/article-cat.jpg 1x, ./images/article-cat@2x.jpg 2x" width="305"
+                                height="180" alt="Article img-1">
+                        </picture>
                         <div class="article__content">
                             <div class="article__time">
                                 <time datetime="2020-08-28">28.08.2020</time>
@@ -225,7 +230,14 @@
                     </li>
 
                     <li class="article__item article__item--side">
-                        <img src="./images/article-cats.jpg" width="305" height="437" alt="Article img-2">
+                        <picture>
+                            <source type="image/webp"
+                                srcset="./images/article-cats.webp 1x, ./images/article-cats@2x.webp 2x">
+
+                            <img src="./images/article-cats.jpg"
+                                srcset="./images/article-cats.jpg 1x, ./images/article-cats@2x.jpg 2x" width="305"
+                                height="437" alt="Article img-2">
+                        </picture>
                         <div class="article__content">
                             <div class="article__time">
                                 <div class="article__span">
@@ -248,7 +260,14 @@
                     </li>
 
                     <li class="article__item">
-                        <img src="./images/article-cat-with-doctor.jpg" width="305" height="180" alt="Article img-3">
+                        <picture>
+                            <source type="image/webp"
+                                srcset="./images/article-cat-with-doctor.webp 1x,./images/article-cat-with-doctor.webp 2x">
+
+                            <img src="./images/article-cat-with-doctor.jpg"
+                                srcset="./images/article-cat-with-doctor.jpg 1x, ./images/article-cat-with-doctor.jpg 2x"
+                                width="305" height="180" alt="Article img-3">
+                        </picture>
                         <div class="article__content">
                             <div class="article__time">
                                 <time datetime="2020-07-21">21.07.2020</time>
