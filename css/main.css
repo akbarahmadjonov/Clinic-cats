@@ -648,13 +648,20 @@ img {
 }
 
 .secondary__btns {
+  display: flex;
   margin-top: 20px;
+}
+
+.secondary__btnup {
+  position: relative;
 }
 
 .secondary__btns--first::before {
   content: "";
   width: 20px;
   height: 20px;
+  position: absolute;
+  left: 40px;
   background-image: url(".././images/service-secondary-money.svg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -662,7 +669,7 @@ img {
 }
 
 .secondary__btns--first {
-  padding: 15px 35px;
+  padding: 15px 37px 15px 60px;
   width: 185px;
   font-size: 16px;
   display: inline-block;
@@ -686,6 +693,8 @@ img {
   content: "";
   width: 20px;
   height: 20px;
+  position: absolute;
+  left: 63px;
   background-image: url(".././images/service-secondary-document.svg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -693,11 +702,12 @@ img {
 }
 
 .secondary__btns--second {
-  padding: 15px 37px;
-  width: 241px;
+  padding: 15px 37px 15px 70px;
+  width: 250px;
   margin-left: 21px;
   font-weight: 500;
   font-size: 16px;
+  display: inline-block;
   text-decoration: none;
   line-height: 21px;
   background: #333333;
