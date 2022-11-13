@@ -223,6 +223,10 @@
 .site-header__btn {
   display: flex;
   margin-left: auto;
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .site-header__btn::before {

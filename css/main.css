@@ -311,6 +311,9 @@ img {
   display: flex;
   margin-left: auto;
 }
+.site-header__btn:active {
+  opacity: 0.6;
+}
 
 .site-header__btn::before {
   content: "";
