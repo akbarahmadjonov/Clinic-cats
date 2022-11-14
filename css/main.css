@@ -245,10 +245,10 @@ img {
   position: absolute;
 }
 
-.site-header__inner img:hover {
+.site-logo:hover {
   opacity: 0.8;
 }
-.site-header__inner img:hover:active {
+.site-logo:hover:active {
   opacity: 0.6;
 }
 
